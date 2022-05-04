@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11225A82282330C400A0B4E4 /* RocketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11225A81282330C400A0B4E4 /* RocketView.swift */; };
 		11CD25C4282297D600F7AC4D /* RocketAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CD25C3282297D600F7AC4D /* RocketAnimationApp.swift */; };
 		11CD25C6282297D600F7AC4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CD25C5282297D600F7AC4D /* ContentView.swift */; };
 		11CD25C8282297D800F7AC4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11CD25C7282297D800F7AC4D /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11225A81282330C400A0B4E4 /* RocketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketView.swift; sourceTree = "<group>"; };
 		11CD25C0282297D600F7AC4D /* RocketAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RocketAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11CD25C3282297D600F7AC4D /* RocketAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketAnimationApp.swift; sourceTree = "<group>"; };
 		11CD25C5282297D600F7AC4D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				11CD25C3282297D600F7AC4D /* RocketAnimationApp.swift */,
 				11CD25C5282297D600F7AC4D /* ContentView.swift */,
+				11225A81282330C400A0B4E4 /* RocketView.swift */,
 				11CD25C7282297D800F7AC4D /* Assets.xcassets */,
 				11CD25C9282297D800F7AC4D /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11225A82282330C400A0B4E4 /* RocketView.swift in Sources */,
 				11CD25C6282297D600F7AC4D /* ContentView.swift in Sources */,
 				11CD25C4282297D600F7AC4D /* RocketAnimationApp.swift in Sources */,
 			);
