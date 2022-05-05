@@ -16,9 +16,9 @@ struct ButtonView: View {
             Text(isPresented ? "Hide Rocket" : "Show Rocket")
                 .bold()
                 .foregroundColor(.white)
-            
+
             Spacer()
-            
+
             Image(systemName: isPresented ? "eye.slash" : "eye")
                 .foregroundColor(.white)
         }
