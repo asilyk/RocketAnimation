@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		11225A82282330C400A0B4E4 /* RocketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11225A81282330C400A0B4E4 /* RocketView.swift */; };
+		11225A8428239F1E00A0B4E4 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11225A8328239F1E00A0B4E4 /* ButtonView.swift */; };
 		11CD25C4282297D600F7AC4D /* RocketAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CD25C3282297D600F7AC4D /* RocketAnimationApp.swift */; };
 		11CD25C6282297D600F7AC4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CD25C5282297D600F7AC4D /* ContentView.swift */; };
 		11CD25C8282297D800F7AC4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11CD25C7282297D800F7AC4D /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		11225A81282330C400A0B4E4 /* RocketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketView.swift; sourceTree = "<group>"; };
+		11225A8328239F1E00A0B4E4 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		11CD25C0282297D600F7AC4D /* RocketAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RocketAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11CD25C3282297D600F7AC4D /* RocketAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketAnimationApp.swift; sourceTree = "<group>"; };
 		11CD25C5282297D600F7AC4D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +36,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11225A8528239F8000A0B4E4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11CD25C7282297D800F7AC4D /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		11225A8628239F8B00A0B4E4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				11CD25C3282297D600F7AC4D /* RocketAnimationApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		11225A8728239F9700A0B4E4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				11225A8328239F1E00A0B4E4 /* ButtonView.swift */,
+				11CD25C5282297D600F7AC4D /* ContentView.swift */,
+				11225A81282330C400A0B4E4 /* RocketView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		11CD25B7282297D600F7AC4D = {
 			isa = PBXGroup;
 			children = (
@@ -53,10 +81,9 @@
 		11CD25C2282297D600F7AC4D /* RocketAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				11CD25C3282297D600F7AC4D /* RocketAnimationApp.swift */,
-				11CD25C5282297D600F7AC4D /* ContentView.swift */,
-				11225A81282330C400A0B4E4 /* RocketView.swift */,
-				11CD25C7282297D800F7AC4D /* Assets.xcassets */,
+				11225A8628239F8B00A0B4E4 /* App */,
+				11225A8728239F9700A0B4E4 /* Views */,
+				11225A8528239F8000A0B4E4 /* Resources */,
 				11CD25C9282297D800F7AC4D /* Preview Content */,
 			);
 			path = RocketAnimation;
@@ -142,6 +169,7 @@
 			files = (
 				11225A82282330C400A0B4E4 /* RocketView.swift in Sources */,
 				11CD25C6282297D600F7AC4D /* ContentView.swift in Sources */,
+				11225A8428239F1E00A0B4E4 /* ButtonView.swift in Sources */,
 				11CD25C4282297D600F7AC4D /* RocketAnimationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
